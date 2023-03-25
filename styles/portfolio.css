@@ -1,8 +1,10 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
 h1 {
-  margin: 100px;
-  text-align: center;
-  color: rgb(69, 238, 238);
+  color: black;
   font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
