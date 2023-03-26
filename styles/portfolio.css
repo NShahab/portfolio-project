@@ -23,11 +23,13 @@ h1 {
 
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .hero {
   background-color: var(--secondry-color);
   text-align: center;
+  padding: 160px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -48,4 +50,27 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-des {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  .project-des {
+    padding: 0;
+    text-align: center;
+  }
 }
