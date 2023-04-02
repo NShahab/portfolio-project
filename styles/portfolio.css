@@ -31,10 +31,10 @@ p {
 .hero {
   background-color: var(--secondry-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -163,7 +163,7 @@ footer .social-links a:hover {
     font-size: 26px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .content-container {
     text-align: center;
